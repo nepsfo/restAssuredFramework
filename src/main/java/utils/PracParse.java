@@ -12,6 +12,7 @@ public class PracParse {
 	}
 	
 	public static void getKey(JSONObject json, String key) {
+		// check exist
 		Boolean exists = json.has(key);
 		Iterator<?> keys;
 		String nextKeys;
